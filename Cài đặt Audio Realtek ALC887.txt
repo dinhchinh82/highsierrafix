@@ -1,0 +1,8 @@
+Vào LE, SLE xoá các file kext liên quan tới audio đã cài vào.
+Xoá file AppleHDADisabler.kext nếu có.
+
+Cài các kext: AppleALC.kext, Lilu.kext bằng KextBeast (copy tất cả ra desktop)
+
+Chạy lệnh: sudo kextcache -i /
+
+Khởi động lại máy.
